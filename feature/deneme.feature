@@ -9,3 +9,4 @@ Feature: Senaryo Ismi
   Scenario: Ikinci Senaryoaaa
     Given Ilk senaryo adimi
     When Ikinci senaryo adimi
+

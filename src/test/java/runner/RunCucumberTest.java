@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features ={"feature/deneme.feature"},
+        features ={"feature/deneme.feature,feature/senaryolar.feature"},
         glue ="stepDefinition",
         monochrome = true,
         plugin = {

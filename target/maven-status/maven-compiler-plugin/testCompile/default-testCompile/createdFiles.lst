@@ -1,3 +1,4 @@
 runner/RunCucumberTest.class
 stepDefinition/BaseTest.class
+utils/Utils.class
 stepDefinition/Steps.class

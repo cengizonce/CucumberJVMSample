@@ -3,9 +3,10 @@ package stepDefinition;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import org.junit.jupiter.api.Assertions;
+import utils.Utils;
 
 
-public class Steps {
+public class Steps extends Utils {
 
 
     @Given("Ilk senaryo adimi")
@@ -18,7 +19,8 @@ public class Steps {
 
     }
     @When("Ucuncu senaryo adimi")
-    public void c() {
+    public void c() throws InterruptedException {
+        Thread.sleep(1000);
         System.out.println("Senaryo ucuncu adimm");
         Assertions.fail();
 
